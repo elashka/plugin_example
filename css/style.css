@@ -1,0 +1,173 @@
+.ui-dialog  input[type=text]{
+    width:300px;
+}
+
+.yes{
+    background: url(../img/yes.png) no-repeat;
+    text-indent: -9999px;
+    display: block;
+    height: 30px;
+    width:30px;
+    margin:0 auto;
+}
+
+.no{
+    background: url(../img/no.png) no-repeat;
+    text-indent: -9999px;
+    display: block;
+    height: 30px;
+    width:30px;
+    margin:0 auto;
+}
+
+.button
+{
+   width:100px;
+}
+
+.export-container{
+    text-align: right;
+}
+
+.help-section{
+    margin-bottom:10px;
+}
+
+div.jtable-main-container table.jtable {
+	width: auto;
+}
+
+div.jtable-main-container table.jtable tbody>tr>td .jtable-view-command-button {
+	background: url('../js/jtable/themes/lightcolor/zoomIn.png') no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+div.jtable-main-container table.jtable tbody>tr>td .jtable-send-command-button {
+	background: url('../js/jtable/themes/lightcolor/send.png') no-repeat;
+	width: 16px;
+	height: 16px;
+}
+/*	jtable  View Dialog		*/
+.jtable-view-box {
+	display: table;
+	width: 100%;
+	border-spacing: 0;
+}
+.jtable-view-box .jtable-input-label {
+	width: 200px;
+	display: table-cell;
+	font-weight: bold;
+	border-right: 1px solid #f5f5f5;
+}
+.jtable-view-box .jtable-div-record {
+	display: table-cell;
+}
+.jtable-view-box .jtable-view-field-container {
+	display: table-row;
+}
+.jtable-view-box .jtable-view-field-container > div {
+	border-top: 1px solid #f5f5f5;
+	padding: 10px;
+}
+.jtable-view-box .jtable-view-field-container:first-child > div {
+	border-top: none;
+}
+
+div.jtable-main-container div.jtable-title div.jtable-title-text {
+	display: none;
+}
+div.jtable-main-container div.jtable-title div.jtable-toolbar {
+	position: relative;
+}
+div.jtable-main-container div.jtable-title span.jtable-page-info {
+	bottom: 0;
+	right: 0;
+	top: 0;
+	position: absolute;
+	line-height: 38px;
+	color: #fff;
+	font-weight: bold;
+	margin-right: 5px;
+}
+.jtable-div-record .yes,
+.jtable-div-record .no {
+	margin: 0;
+}
+div.jtable-main-container div.jtable-bottom-panel {
+	border-top: 1px solid #c8c8c8;
+	margin-top: -1px;
+}
+.filtering{
+    margin-bottom:20px;
+}
+
+.filtering-buttons{
+    float:left;
+}
+
+.filter-button{
+    background: #78b1ed;
+    background: -moz-linear-gradient(top,#78b1ed 0%,#417bb5 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#78b1ed),color-stop(100%,#417bb5));
+    background: -webkit-linear-gradient(top,#78b1ed 0%,#417bb5 100%);
+    background: -o-linear-gradient(top,#78b1ed 0%,#417bb5 100%);
+    background: -ms-linear-gradient(top,#78b1ed 0%,#417bb5 100%);
+    background: linear-gradient(to bottom,#78b1ed 0%,#417bb5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#78b1ed',endColorstr='#417bb5',GradientType=0);
+    color:#fff;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    height: 24px;
+    letter-spacing: normal;
+    line-height: 23px;
+    width: 100px;
+    border: 1px solid #bbb;
+    -webkit-border-radius: 3px;
+    -webkit-appearance: none;
+    border-radius: 3px;
+}
+
+.search-block{
+    padding: 10px;
+    border-bottom: 1px dotted #cccccc;
+}
+
+.filtering{
+    width: 630px;
+}
+.search-buttons{
+    margin-top:15px;
+}
+
+.filtering label {
+    font-weight: bold;
+    margin:0 10px 0 10px;
+}
+
+.filtering select{
+    width:135px;
+}
+.numeric-field{
+    width: 60px;
+}
+
+.filtering .left-inputs{
+    margin-left:30px;
+}
+
+.filtering .right-select{
+    margin-left: 10px;
+}
+
+.filtering  .shortcut-buttons{
+    margin: 10px 0 0 10px;
+}
+
+.filtering  .shortcut-buttons input[type=button]{
+    margin-right: 15px;
+}
+
+.leads-settings input[type=text]{
+    width:300px;
+}
